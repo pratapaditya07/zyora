@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Climate+Crisis:YEAR@1979..2050&family=Fleur+De+Leah&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    border: 5px solid black;
+    border-radius: 10px;
+    height: 500vh;
+}
+nav{
+    padding: 0.5px 0.8vw;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact{
+    height: fit-content;
+    top: 1vh;
+    font-family: "Antonio", sans-serif;
+    font-size: 1.5vw;}
+
+nav h1{
+    position: absolute;
+    font-size: 19vw;
+    left: 1%;
+    line-height: 0.75;
+    font-family: "Climate Crisis", sans-serif;
+}
+
+#hero{
+    height: 100vh;
+    margin-top: -10vw;
+    padding: 0vw 1vw;
+    padding-top: 10vw;
+}
+
+#tagline{
+    margin-top: -10vw;
+    font-family: "chillax", sans-serif;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 1.1;
+    text-align: center;
+}
+#partition{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vw;
+}
+#heroleft{
+    width: 40%;
+}
+
+#mname{
+    font-family: "climate crisis", sans-serif;
+    font-size: 4vw;
+    font-weight: 300;
+}
+#heroleft h1{
+    font-size: 5.5vw;
+    font-family: "Antonio", sans-serif;
+    line-height: 0.8;
+}
+
+#heroleft p{
+    margin-top: 2vw ;
+    font-family: "chillax", sans-serif;
+    font-weight: 400;
+    font-size: 1.2vw;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#heroright{
+    width: 50%;
+}
