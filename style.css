@@ -113,23 +113,55 @@ nav h1{
 }
 
 #what_we_do{
-    height: 100vh;
-/*     background-color: antiquewhite;
- */}
+    height: 135vh;
+    position: relative;
+}
 
 #what_we_do p{
-    font-family: "Antonio", sans-serif;
+    font-family: "stardom", sans-serif;
     font-size: 10vw;
     font-weight: 800;
     text-align: center;
-    line-height: 1;
+    line-height: 1.2;
+}
+#at{
+    margin-left: -70vw;
+    margin-bottom: 1vw;
+    padding-top: 3vw;
 }
 
-#mnamee{
-    font-family: "climate crisis", sans-serif;
-    font-size: 12vw;
-    font-weight: 200;
+#abra{
+    height: 15vw;
+    width: 70vw;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    left: 25%;
+    top: 3vw;
 }
+
+.inside_abra{
+    flex: 1;
+    transition: flex 0.5s ease;
+    height: 100%;
+    width: 20%;
+    border-radius: 15px;
+}
+
+.inside_abra p{
+    font-family:"climate crisis", sans-serif !important;
+    font-size: 11vw !important;
+}
+
+.inside_abra:hover{
+    flex: 3;
+}
+
+
+
+
+
+
 
 
 
