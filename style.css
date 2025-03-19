@@ -110,6 +110,12 @@ nav h1{
     background-color: blueviolet;
     object-fit: cover;
     overflow: hidden;
+    scale: 1;
+}
+#video_intro video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 #what_we_do{
@@ -174,3 +180,44 @@ nav h1{
 
 
 
+footer{
+    height: 93vh;
+    width: 100%;
+    background-color: #010B13;
+    color: #f9f9f6;
+    text-align: center;
+}
+
+#s_heading{
+    font-family: "bebas neue", sans-serif;
+    font-size: 1vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0vw 1vw;
+    padding-top: 1vw;
+}
+
+#m_content{
+    font-family: "bebas neue", sans-serif;
+    font-size: 12vw;
+    text-align: center;
+    line-height: 0.9;
+}
+
+#mess_button{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2vw;
+}
+
+#mess_button button{
+    padding: 1.5vw 7.5vw;
+    border-radius: 50px;
+    border: none;
+    border: 2px solid #f9f9f6;
+    color: #f9f9f6;
+    cursor: pointer;
+    font-size: 1.2vw;
+    font-family: "chillax", sans-serif;
+    background-color: #010B13;
+}
