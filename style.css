@@ -184,6 +184,75 @@ nav h1{
     background-color: green;
 }
 
+.box {
+	height: 100vh;
+    width: 37%;
+    margin-left: 33.3%;
+    position: relative;
+
+}
+
+.box .inner {
+	width: 100%;
+	height: 30vh;
+	overflow: hidden;
+}
+
+.box .inner:first-child {
+	background-color: rgb(153, 83, 83);
+	transform-origin: top;
+	transform: perspective(200px) rotateX(-35deg);
+    position: absolute;
+    top: 0;
+}
+
+.box .inner:last-child {
+	background-color: lightcoral;
+	color: antiquewhite;
+	transform-origin: bottom;
+	transform: perspective(200px) rotateX(35deg);
+    position: absolute;
+    bottom: 0;
+}
+
+.box .inner img {
+    position: absolute;
+    width: 100%;    
+	animation: marquee 12s linear;
+}
+
+.box .inner:first-child img {
+	animation-delay: 6.6s;
+}
+
+#midblock{
+    height: 73vh;
+    width:55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bf6666;
+    position: absolute;
+    top: 13.5vh;
+    left: 22.5%;
+    overflow: hidden;
+}
+
+#midblock img{
+    animation: marquee 35s linear;
+    animation-delay: 1.4s;
+    position: absolute;
+}
+
+@keyframes marquee {
+	from {
+		top: 100%;
+	}
+
+	to {
+        top: -880%;
+	}
+}
 
 
 
