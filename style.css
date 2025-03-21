@@ -181,11 +181,11 @@ nav h1{
 #day3{
     height: 100vh;
     width: 100%;
-    background-color: green;
+    background-color: #010B13;
 }
 
 .box {
-	height: 100vh;
+	height: 100%;
     width: 37%;
     margin-left: 33.3%;
     position: relative;
@@ -199,60 +199,86 @@ nav h1{
 }
 
 .box .inner:first-child {
-	background-color: rgb(153, 83, 83);
 	transform-origin: top;
-	transform: perspective(200px) rotateX(-35deg);
+	transform: perspective(19vh) rotateX(-35deg);
     position: absolute;
     top: 0;
 }
 
 .box .inner:last-child {
-	background-color: lightcoral;
-	color: antiquewhite;
 	transform-origin: bottom;
-	transform: perspective(200px) rotateX(35deg);
+	transform: perspective(19vh) rotateX(35deg);
     position: absolute;
     bottom: 0;
 }
 
 .box .inner img {
     position: absolute;
+    top: 100%;
     width: 100%;    
-	animation: marquee 12s linear;
 }
 
 .box .inner:first-child img {
+    animation: marquee3 12s linear ;
 	animation-delay: 6.6s;
 }
 
+.box .inner:last-child img{
+    animation: marquee3 12s linear ;
+}
+
 #midblock{
-    height: 73vh;
-    width:55%;
+    height: 74vh;
+    width:19.35vw;
+    object-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #bf6666;
-    position: absolute;
-    top: 13.5vh;
-    left: 22.5%;
-    overflow: hidden;
 }
 
 #midblock img{
-    animation: marquee 35s linear;
-    animation-delay: 1.4s;
+    width: 100%;
+    animation: marquee2 16s linear  ;
+    animation-delay: 1.3s;
     position: absolute;
+    top: 100%;
 }
 
-@keyframes marquee {
+@keyframes marquee3 {
 	from {
 		top: 100%;
 	}
 
 	to {
-        top: -880%;
+        top: -950%;
 	}
 }
+
+@keyframes marquee2 {
+	from {
+		top: 100%;
+	}
+
+	to {
+        top: -200%;
+	}
+}
+
+@keyframes marquee3 {
+	from {
+		top: 100%;
+	}
+
+	to {
+        top: -950%;
+	}
+}
+
 
 
 
