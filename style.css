@@ -9,10 +9,10 @@
 main{
     border: 5px solid black;
     border-radius: 10px;
-    height: 500vh;
+    height: auto;
 }
 nav{
-    padding: 0.5px 0.8vw;
+    padding: 0px 0.8vw;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
@@ -20,9 +20,10 @@ nav{
 
 .contact{
     height: fit-content;
-    top: 1vh;
     font-family: "Antonio", sans-serif;
-    font-size: 1.5vw;}
+    font-size: 1.5vw;
+    margin-top: 42vh;
+}
 
 nav h1{
     position: absolute;
@@ -34,14 +35,11 @@ nav h1{
 
 #hero{
     height: 100vh;
-    margin-top: -10vw;
+    margin-top: -32vw;
     padding: 0vw 1vw;
-    padding-top: 10vw;
-/*     background-color: cyan;
- */}
+}
 
 #tagline{
-    margin-top: -10vw;
     font-family: "chillax", sans-serif;
     font-weight: 400;
     font-size: 1.2vw;
@@ -107,7 +105,6 @@ nav h1{
     width: 96vw;
     justify-self: center;
     border-radius: 20px;
-    background-color: blueviolet;
     object-fit: cover;
     overflow: hidden;
     scale: 1;
@@ -119,7 +116,7 @@ nav h1{
 }
 
 #what_we_do{
-    height: 135vh;
+    height: 120vh;
     position: relative;
 }
 
@@ -134,12 +131,8 @@ nav h1{
     margin-left: -70vw;
     margin-bottom: 1vw;
     padding-top: 3vw;
-}
-#at::after{
-    height: 100px;
-    width: 100px;
-    background-color: aqua;
-}
+/*     background-color: antiquewhite;
+ */}
 
 #abra{
     height: 15vw;
@@ -157,8 +150,6 @@ nav h1{
     height: 100%;
     width: 20%;
     border-radius: 15px;
-    background-color: #D4D4CF;
-    border: 2px solid gray;
     background-image: url('https://i.pinimg.com/474x/d2/a2/d4/d2a2d404914a753cc1a740ca02a7b3ba.jpg');
     background-size: cover;
     color: transparent;
@@ -181,56 +172,48 @@ nav h1{
 #day3{
     height: 100vh;
     width: 100%;
-    background-color: #010B13;
-}
-
-.box {
-	height: 100%;
-    width: 37%;
-    margin-left: 33.3%;
+    background-color: hsl(207, 90%, 4%);
     position: relative;
-
 }
 
-.box .inner {
+#day3 .inner {
 	width: 100%;
-	height: 30vh;
+	height: 80vh;
 	overflow: hidden;
 }
 
-.box .inner:first-child {
+#day3 .inner:first-child {
 	transform-origin: top;
-	transform: perspective(19vh) rotateX(-35deg);
+	transform: perspective(12vh) rotateX(-35deg);
     position: absolute;
     top: 0;
 }
 
-.box .inner:last-child {
+#day3 .inner:last-child {
 	transform-origin: bottom;
-	transform: perspective(19vh) rotateX(35deg);
+	transform: perspective(12vh) rotateX(35deg);
     position: absolute;
     bottom: 0;
 }
 
-.box .inner img {
+#day3 .inner img {
     position: absolute;
     top: 100%;
     width: 100%;    
 }
 
-.box .inner:first-child img {
-    animation: marquee3 12s linear ;
-	animation-delay: 6.6s;
+#day3 .inner:first-child img {
+    animation: marquee3 14s linear ;
+	animation-delay: 6.3s;
 }
 
-.box .inner:last-child img{
-    animation: marquee3 12s linear ;
+#day3 .inner:last-child img{
+    animation: marquee3 14s linear ;
 }
 
 #midblock{
-    height: 74vh;
-    width:19.35vw;
-    object-position: center;
+    height: 72.8vh;
+    width:20.5vw;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -243,7 +226,7 @@ nav h1{
 
 #midblock img{
     width: 100%;
-    animation: marquee2 16s linear  ;
+    animation: marquee2 17s linear  ;
     animation-delay: 1.3s;
     position: absolute;
     top: 100%;
@@ -255,7 +238,7 @@ nav h1{
 	}
 
 	to {
-        top: -950%;
+        top: -1100%;
 	}
 }
 
@@ -265,7 +248,7 @@ nav h1{
 	}
 
 	to {
-        top: -200%;
+        top: -240%;
 	}
 }
 
@@ -275,7 +258,7 @@ nav h1{
 	}
 
 	to {
-        top: -950%;
+        top: -1100%;
 	}
 }
 
